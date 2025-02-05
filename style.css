@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: normal;
+}
+
+body {
+  color: #ffff;
+  font-size: 16px;
+}
+
+.container-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(179, 151, 231);
+  margin: 0 auto;
+  width: 1250px;
+  height: 953px;
+}
+
+.container-form {
+  display: flex;
+  flex-direction: column;
+  margin: 150px auto 150px;
+  background-color: rgb(103, 75, 129);
+  padding: 18px;
+  width: 300px;
+  border-radius: 0.7em;
+  box-shadow: 0px 0px 60px rgb(84, 35, 131);
+}
+
+#formulario {
+  display: flexbox;
+  flex-direction: row;
+  width: 100%;
+}
+
+#formulario h1 {
+  margin-top: 8px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+#formulario label {
+  display: flex;
+  margin-top: 28px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 1px;
+}
+
+#formulario input {
+  display: flex;
+  margin-top: 8px;
+  width: 100%;
+  padding: 8px;
+  border-radius: 0.7em;
+  border: none;
+}
+
+#button-form {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  background-color: rgb(3, 180, 3);
+  font-size: medium;
+  font-weight: bolder;
+  color: #ffff;
+  margin-top: 26px;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  border-radius: 0.7em;
+}
+
+#button-form:hover {
+  background-color: rgb(3, 128, 3);
+  transition: 0.6s;
+  font-size: large;
+}
+
+.msg-success {
+  display: none;
+  margin-top: 18px;
+  text-align: center;
+  background-color: green;
+  width: 100%;
+  padding: 18px;
+  border-radius: 0.7em;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+.msg-error {
+  display: none;
+  margin-top: 18px;
+  text-align: center;
+  background-color: rgb(255, 0, 0);
+  width: 100%;
+  padding: 18px;
+  border-radius: 0.7em;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+

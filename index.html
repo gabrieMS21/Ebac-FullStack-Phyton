@@ -1,28 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>JS+HTML/DOM</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container-main">
-        <div class="container-form">
-            <form  id="formulario">
-                <h1>Formulário</h1>
-                <label for="field-a">Campo A</label>
-                <input type="number" name="field" id="field-a">
-                <label for="field-b">Campo B</label>
-                <input type="number" name="field" id="field-b">
-                <button id="button-form" type="submit">Enviar</button>
-            </form>
-            <p class="msg-success">
-            </p>
-            <p class="msg-error">
-            </p>
-        </div>
+      <div class="container-form">
+        <h1>Formulário</h1>
+        <h3>Verifique se o <b>Campo B</b> é maior que o <b>Campo A</b> </h3>
+        <form id="formulario">
+          <label for="field-a">Campo A</label>
+          <input type="number" name="field" id="field-a" />
+          <label for="field-b">Campo B</label>
+          <input type="number" name="field" id="field-b" />
+          <button id="button-form" type="submit">Enviar</button>
+        </form>
+        <p class="msg-success"></p>
+        <p class="msg-error"></p>
+      </div>
     </div>
-</body>
-<script src="script.js"></script>
+  </body>
+  <script src="script.js"></script>
 </html>
